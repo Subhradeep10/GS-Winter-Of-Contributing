@@ -1,0 +1,171 @@
+.nav_cont{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    right: 1%;
+    left: 0;
+    background-color: white;
+    padding: 1rem 8%;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 100px;
+}
+.logo{
+    width:35%;
+}
+.logo>img{
+max-width:19rem;
+max-height:75%;
+}
+.nav-items ul a li{
+    display: inline;
+    list-style-type:none;
+}
+.nav-items ul a{
+    text-decoration: none;
+    padding:0.6rem 0rem;
+    font-weight:502;
+    margin-left:0.8rem;
+    font-size:1.28rem;
+    color: #2C599D;
+}
+.text-center{
+    padding-top:60px;
+}
+.fa-bars{
+    display:none;
+}
+
+.Join-Button{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Join-Button:hover{
+    background-color: white;
+    color: blue;
+}
+
+.Join-text{
+    color: white;
+    text-decoration: none;
+}
+
+.Join-text:hover{
+    background-color: white;
+    color: blue;
+}
+
+.events{
+    position: absolute;
+    top: 12%;
+    width: 100%;
+}
+
+.row-wise{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+}
+
+.event_image{
+    width: 90%;
+    padding-top: 20px;
+    
+}
+
+
+.event-container{
+    width: 33%;
+    transition: 0.5s;
+    background-color: #f6f9ff;
+    border-radius: 10px;
+}
+
+.event-container:hover{
+    transform: scale(0.9);
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+
+}
+
+.content{
+    text-align: center;
+    padding: 20px;
+}
+
+.events-head{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.image{
+    text-align: center;
+    
+}
+
+
+.event-button{
+    margin: auto;
+    text-align:  center;
+    padding-bottom: 10px;
+
+}
+
+.button{
+    background: orange;
+    color: white;
+    width: 20%;
+    border-radius: 21px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background-color: white;
+    color: orange;
+}
+
+.section-team{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: orange;
+    width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 768px){
+    .row-wise{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 10px;
+        align-items: center;
+    }
+    .event-container{
+        width: 70%;
+        transition: 0.5s;
+        background-color: #f6f9ff;
+        border-radius: 10px;
+        margin: 25px;
+    }
+    .button{
+        background: orange;
+        color: white;
+        width: 6rem;
+        border-radius: 21px;
+        height: 40px;
+        transition: 0.5s;
+    }
+}
+
